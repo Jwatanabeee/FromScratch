@@ -1,7 +1,7 @@
 package jp.techacademy.watanabe.jun.fromscratch;
 import android.util.Log;
 
-class Human extends Animal{
+class Human extends Animal implements Thinkable {
     String name;
     int age;
     String hobby;
